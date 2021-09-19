@@ -16,7 +16,7 @@ def run():
     img1 = Image.open('CreditCard-Visa_MasterCard.jpg')
     img1 = img1.resize((746, 300))
     st.image(img1, use_column_width=False)
-    st.title("Credit Card Approval Prediction")
+    st.title("Predicting Credit Card Approval")
 
     st.markdown(html_temp, unsafe_allow_html=True)
 
