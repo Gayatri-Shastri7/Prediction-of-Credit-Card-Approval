@@ -13,7 +13,7 @@ MMS = pickle.load(open('MMS.pkl', 'rb'))
 html_temp=""" <div style="background-color:Blue;padding:2px"> """
 
 def run():
-    img1 = Image.open('CreditCard-Visa_MasterCard.jpg')
+    img1 = Image.open('img.jpg')
     img1 = img1.resize((746, 300))
     st.image(img1, use_column_width=False)
     st.title("Predicting Credit Card Approval")
